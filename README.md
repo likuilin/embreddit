@@ -6,3 +6,4 @@ Like [fxtwitter.com](https://github.com/FixTweet/FixTweet), embreddit.com fixes 
 
     https://www.reddit.com/gallery/139emh4 => https://embreddit.com/gallery/139emh4
 
+![screenshot of it working](https://github.com/likuilin/embreddit/blob/main/screenshot.png)
