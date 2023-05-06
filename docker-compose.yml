@@ -1,0 +1,14 @@
+version: "3"
+services:
+  embreddit:
+    image: nginx:1.23.1-alpine
+    volumes:
+     - ./nginx.conf:/etc/nginx/nginx.conf:ro
+     - ./logs:/etc/nginx/logs:rw
+    networks:
+     - nginx
+    restart: always
+
+networks:
+  nginx:
+    external: true
